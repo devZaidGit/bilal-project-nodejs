@@ -11,7 +11,7 @@ app.use(cors({
 
 const port = 7070
 
-app.get('/', (req, res) => res.send('Welcome'))
+app.get('/', (req, res) => res.send('Welcome to the Nodejs Project'))
 
 
 app.post('/auth', (req, res) => {
